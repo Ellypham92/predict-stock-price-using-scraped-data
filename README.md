@@ -7,7 +7,7 @@ Data source: [Scraping code](https://github.com/Ellypham92/web-scrape-real-time-
 
 
 ## Table of Contents
-[Problem Statement](#Problem-Statement) <br>
+:grey_question:[Problem Statement](#Problem-Statement) <br>
 [Data Exploration](#Data-Exploration) <br>
 [Data Preprocessing](#Data-Preprocessing) <br>
 [Feature Engineering](#Feature-Engineer) <br>
@@ -21,7 +21,7 @@ Data source: [Scraping code](https://github.com/Ellypham92/web-scrape-real-time-
 [Conclusion](#Conclusion)
 
 
-###  Problem Statement
+### :grey_question:Problem Statement
 The task is to predict the day price direction of Apple stock, AAPL.
 
 The stock market is very complex and highly volatile. In order to be profitable, we do not need to predict the correct price, but rather, the price direction: whether it will be higher or lower than the price that is today. If we predict it to be higher, we might as well buy some stocks, else, we should probably sell.
