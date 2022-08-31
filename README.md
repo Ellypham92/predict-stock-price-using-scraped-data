@@ -4,8 +4,7 @@
 </div>
 
 
-# Stock Price Prediction: Apple 
-
+# Stock Price Direction Prediction: Apple 
 By: Elly Pham <br>
 Created on: August 31, 2022 <br>
 Source: [Stratascratch.com](https://www.stratascratch.com/) <br>
@@ -28,11 +27,11 @@ Data source: [Scraping code](https://github.com/Ellypham92/web-scrape-real-time-
 
 
 ### Problem Statement
-The task is to predict the day price direction of Apple stock, AAPL.
+:grey_question: The task is to predict the day price direction of Apple stock, AAPL.
 
-The stock market is very complex and highly volatile. In order to be profitable, we do not need to predict the correct price, but rather, the price direction: whether it will be higher or lower than the price that is today. If we predict it to be higher, we might as well buy some stocks, else, we should probably sell.
+:grey_question: The stock market is very complex and highly volatile. In order to be profitable, we do not need to predict the correct price, but rather, the price direction: whether it will be higher or lower than the price that is today. If we predict it to be higher, we might as well buy some stocks, else, we should probably sell.
 
-Therefore, the target would be a binary classification whether the next day closing price will be higher than the opening price.
+:grey_question: Therefore, the target would be a binary classification whether the next day closing price will be higher than the opening price.
 
 
 ### Data Exploration
