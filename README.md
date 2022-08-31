@@ -47,7 +47,7 @@ Stock Splits - <br>
 ##### We change the date type for date to datetime and Volume to float using astype() method:
 ![Screen Shot 2022-08-30 at 10 08 09 PM](https://user-images.githubusercontent.com/64395120/187584134-e2d9dd14-11f2-4321-8e01-c8596728c8ee.png)
 
-##### We created a custom function make_graph() to create graph for high price/low price and volume 
+##### We created a custom function make_graph() to create graphs for train, validate, test data for high price/low price and volume 
 ![Screen Shot 2022-08-30 at 10 16 32 PM](https://user-images.githubusercontent.com/64395120/187585162-76a20fba-f766-469a-9f80-459cb58dacad.png)
 
 
