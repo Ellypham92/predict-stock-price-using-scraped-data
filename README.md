@@ -93,5 +93,5 @@ We will compare model by using the AUV score. AUC uses a system similar to acade
 
 <br>
 
-![Screen Shot 2022-08-31 at 1 51 20 AM](https://user-images.githubusercontent.com/64395120/187612726-2cfc18a9-d67a-436f-8f25-fc139bc09b19.png)
+![width="350" Screen Shot 2022-08-31 at 1 51 20 AM](https://user-images.githubusercontent.com/64395120/187612726-2cfc18a9-d67a-436f-8f25-fc139bc09b19.png)
 
