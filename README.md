@@ -1,9 +1,4 @@
-# Stock Price Prediction: Apple 
-<div id="header" align="center">
-<img width="350" alt="image" src="https://user-images.githubusercontent.com/64395120/187615284-299e9121-bfc3-4a88-9588-ffb2105fb15c.png">
-</div>
-![image](https://user-images.githubusercontent.com/64395120/187615284-299e9121-bfc3-4a88-9588-ffb2105fb15c.png)
-
+# Stock Price Prediction: :apple: Apple 
 
 ## Table of Contents
 [Problem Statement](#Problem-Statement) <br>
