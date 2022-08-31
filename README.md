@@ -131,11 +131,11 @@ Based on the AUC value, the winners are:
 - Random Forest
 - Gradient Boosting Ensemble 
 <br>
-The factors that have higher impact on the stock price prediction are:
-- Price Range
-- Moving Average 7
-- Price Direction
-- Volume
+The factors that have higher impact on the stock price prediction are: <br>
+- Price Range <br>
+- Moving Average 7 <br>
+- Price Direction <br>
+- Volume <br>
 - Moving Average 3. <br>
 
 ![Screen Shot 2022-08-31 at 2 06 07 AM](https://user-images.githubusercontent.com/64395120/187614991-380be9d0-1b2c-492b-a025-c0549bbf8f93.png)
