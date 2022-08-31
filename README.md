@@ -1,5 +1,5 @@
 # Stock Price Prediction: Apple 
 
-# Table of Contents
+## Table of Contents
 
 
