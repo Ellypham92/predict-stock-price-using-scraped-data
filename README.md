@@ -8,7 +8,7 @@ Data source: [Scraping code](https://github.com/Ellypham92/web-scrape-real-time-
 
 ## Table of Contents
 :grey_question:[Problem Statement](#Problem-Statement) <br>
-[Data Exploration](#Data-Exploration) <br>
+:mag:[Data Exploration](#Data-Exploration) <br>
 [Data Preprocessing](#Data-Preprocessing) <br>
 [Feature Engineering](#Feature-Engineer) <br>
 [Machine Learning Modeling](#Machine-Learning-Modeling) 
@@ -28,7 +28,7 @@ The stock market is very complex and highly volatile. In order to be profitable,
 
 Therefore, the target would be a binary classification whether the next day closing price will be higher than the opening price.
 
-### Data Exploration
+### :mag:Data Exploration
 Here is a slice of our data using describe() method: 
 ![Screen Shot 2022-08-30 at 9 57 35 PM](https://user-images.githubusercontent.com/64395120/187582706-67b52f05-0013-4a6f-9cca-c50faf14ce43.png)
 
