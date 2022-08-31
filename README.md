@@ -1,4 +1,4 @@
-# Stock Price Prediction: :apple: Apple 
+# Stock Price Prediction: Apple 
 
 ## Table of Contents
 [Problem Statement](#Problem-Statement) <br>
