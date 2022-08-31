@@ -31,14 +31,14 @@ Sample of training data:
 
 Each dataset has the same format with the following 7 columns:
 
-Date - in format YYYY-MM-DD
-Open - stock price upon opening of an exchange
-High - the highest stock price on a given day
-Low - the lowest stock price on a given day
-Close - stock price at the end of a trading day
-Volume - the amount of shares traded over the course of a trading day
-Dividends - 
-Stock Splits - 
+Date - in format YYYY-MM-DD <br>
+Open - stock price upon opening of an exchange <br>
+High - the highest stock price on a given day <br>
+Low - the lowest stock price on a given day <br>
+Close - stock price at the end of a trading day <br>
+Volume - the amount of shares traded over the course of a trading day <br>
+Dividends -  <br>
+Stock Splits - <br>
 ### :baseball: Data Preprocessing
 
 ### :bicyclist: Machine Learning Modeling
