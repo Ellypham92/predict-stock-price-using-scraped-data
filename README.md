@@ -1,7 +1,7 @@
 # Stock Price Prediction: Apple 
-![image](https://user-images.githubusercontent.com/64395120/187584766-4d9f469c-9974-40b3-be08-f37404561f25.png)
-
-
+<div id="header" align="center">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/64395120/187584766-4d9f469c-9974-40b3-be08-f37404561f25.png">
+</div>
 ## Table of Contents
 
 [Problem Statement](#Problem-Statement) <br>
