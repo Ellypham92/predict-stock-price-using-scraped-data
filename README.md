@@ -7,7 +7,7 @@
 [Problem Statement](#Problem-Statement) <br>
 [Data Exploration](#Data-Exploration) <br>
 [Data Preprocessing](#Data-Preprocessing) <br>
-[Feature Engineer](#Feature-Engineer) <br>
+[Feature Engineering](#Feature-Engineer) <br>
 [Machine Learning Modeling](#Machine-Learning-Modeling) 
 - [Logistic Regression](#Logistic-Regression)
 - [Decision Tree](#Decission-Tree)
@@ -66,4 +66,15 @@ Now, we are using value_counts() method to sum the total number of days that has
 ![Screen Shot 2022-08-31 at 1 46 41 AM](https://user-images.githubusercontent.com/64395120/187611829-8a8e0136-ab46-41f3-9167-a8501f31de08.png)
 
 
+### :hourglass_flowing_sand: Feature Engineering  
+Since the stock price data is time series data, the price in the next day depends on price from the previous day. We are going to calculate 3 and 7 day moving average. We can use rolling(). <br>
+<br>
+We will add new features: 3 and 7 days moving average in the dataset that are computed rolling mean with a window length of 3 and 7 observations.
+<br>
+Additionally, we will add a price direction feature which is the differenece between closing price and the opening price to try if that would help for our prediction. And, price range which is the difference between high price and low price.
+<br>
+
+![Screen Shot 2022-08-31 at 1 49 55 AM](https://user-images.githubusercontent.com/64395120/187612239-8eb2f7c0-729b-41ff-aefb-c9490191749c.png)
+
+### :snowboarder: Machine Learning Modeling
 
