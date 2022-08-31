@@ -1,8 +1,8 @@
 # Stock Price Prediction: Apple 
 
 By: Elly Pham <br>
-Created on: August 31, 2022 
-Source: [Stratascratch.com]https://www.stratascratch.com/ 
+Created on: August 31, 2022 <br>
+Source: [Stratascratch.com](https://www.stratascratch.com/)
 
 
 ## Table of Contents
