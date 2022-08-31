@@ -92,5 +92,5 @@ We will compare model by using the AUV score. AUC uses a system similar to acade
 -  E: No discrimination = 0.5 to 0.6
 
 <br>
-<img width="1200" alt="image" src="https://user-images.githubusercontent.com/64395120/187613055-e7181fbb-396f-4f45-bd24-5df0ad8854bb.png">
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/64395120/187613055-e7181fbb-396f-4f45-bd24-5df0ad8854bb.png">
 
