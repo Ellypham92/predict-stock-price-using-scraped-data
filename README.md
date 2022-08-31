@@ -11,7 +11,7 @@ Created on: August 31, 2022
 [Machine Learning Modeling](#Machine-Learning-Modeling) 
 - [Logistic Regression](#Logistic-Regression)
 - [Decision Tree](#Decission-Tree)
-- [Random Forest](#Random-Forest)
+- [Random Forest](#Random-Forest) <br>
 [Deep Learning](#Deep-Learning)
 [Conclusion](#Conclusion)
 
