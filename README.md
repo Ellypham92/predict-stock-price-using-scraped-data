@@ -17,6 +17,7 @@ Created on: August 31, 2022
 [Deep Learning](#Deep-Learning) <br>
 [Conclusion](#Conclusion)
 
+
 ###  Problem Statement
 The task is to predict the day price direction of Apple stock, AAPL.
 
@@ -30,9 +31,9 @@ Here is a slice of our data using describe() method:
 ###  Data Preprocessing <br>
 
  ##### We will drop the column Unamed ) using drop() method since it is not helpful and split data into
-- Training (1980-12-12 to 2005-12-12)
-- Validation (2005-12-13 to 2013-12-13)
-- Testing (2013-12-14 to 2022-08-29)
+:paperclip: Training ('1980-12-12':'2014-12-12')
+:paperclip: Validation (2014-12-13':'2018-12-13')
+:paperclip: Testing ('2018-12-14':'2022-08-29')
 
 Sample of training data: 
 ![Screen Shot 2022-08-30 at 10 03 38 PM](https://user-images.githubusercontent.com/64395120/187583518-a315c5a5-069d-475b-8b64-48b848dafcff.png)
@@ -127,11 +128,11 @@ AUC plot:
 AUC does not improve, so ANN is not our choice. 
 
 ###  Conclusion
-Based on the AUC value, the winners are:
+:rainbow: Based on the AUC value, the winners are:
 - Random Forest
 - Gradient Boosting Ensemble 
 <br>
-The factors that have higher impact on the stock price prediction are: <br>
+:rainbow: The factors that have higher impact on the stock price prediction are: <br>
 - Price Range <br>
 - Moving Average 7 <br>
 - Price Direction <br>
