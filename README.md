@@ -85,12 +85,31 @@ ROC is commonly used to examine the trade-off between the detection of true posi
 - TPR = TP / P
 <br>
 We will compare model by using the AUV score. AUC uses a system similar to academic letter grades:
--  A: Outstanding = 0.9 to 1.0
--  B: Excellent/ good = 0.8 to 0.9
--  C: Acceptable/ fair = 0.7 to 0.8
--  D:Poor=0.6to0.7
--  E: No discrimination = 0.5 to 0.6
-
+-  A: Outstanding = 0.9 to 1.0 <br>
+-  B: Excellent/ good = 0.8 to 0.9 <br>
+-  C: Acceptable/ fair = 0.7 to 0.8 <br>
+-  D:Poor=0.6 to 0.7 <br>
+-  E: No discrimination = 0.5 to 0.6 <br>
 <br>
-<img width="900" alt="image" src="https://user-images.githubusercontent.com/64395120/187613055-e7181fbb-396f-4f45-bd24-5df0ad8854bb.png">
+
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/64395120/187613055-e7181fbb-396f-4f45-bd24-5df0ad8854bb.png">
+
+AUC is 0.50, the model is not doing greater than logistic regression. 
+
+#### Random Forest
+
+Random Forest is an ensemble method and built on the idea of bagging. The logic of ensemble method is to combine multiple weaker learner, and create a stronger learner. <br>
+<br>
+One of the avantages of random forest is it generates decision trees that are uncorrected to promote diversity among trees because random forest makes a set of decision trees.
+
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/64395120/187613548-1aa7b9e2-71a4-4894-bc44-63cf2ea0ee3e.png">
+
+This model is doing slightly better than the previous models; since the AUC (0.53) is greater. However, we are still looking for AUC value closer to 1.0, random forest is not an optimal choice.
+
+#### Gradient Boosting Ensemble
+
+Another ensemble method, Gradient Boosting Ensemble, which is adaptively chaning distribution of training data by focusing more on previously misclassified records. <br>
+<br>
+Gradient Boosting Emsemble produces the same AUC = 0.53 as Random Forest. 
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/64395120/187613760-c5c5d0fb-99d8-4d83-9e0e-0e7ee23d7e05.png">
 
