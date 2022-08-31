@@ -77,10 +77,11 @@ To do that we are going to move the day to one day before that, meaning we shift
 :white_check_mark: We are using shift() method here.
 ![Screen Shot 2022-08-31 at 1 43 50 AM](https://user-images.githubusercontent.com/64395120/187611259-6481a0ae-4ab0-40bf-8be4-c2cf65dabb4c.png)
 
-:white_check_mark: Now, we are using value_counts() method to sum the total number of days that has higher closing pricer:
+:white_check_mark: Now, we are using value_counts() method to sum the total number of days that has higher closing price:
 ![Screen Shot 2022-08-31 at 1 46 41 AM](https://user-images.githubusercontent.com/64395120/187611829-8a8e0136-ab46-41f3-9167-a8501f31de08.png)
 
-Since the stock price data is time series data, the price in the next day depends on price from the previous day. We are going to calculate 3 and 7 day moving average. 
+Since the stock price data is time series data, the price in the next day depends on price from the previous day. We are going to calculate 3 and 7 day moving average.  
+<br>
 :white_check_mark: We can use rolling(). <br>
 <br>
 :white_check_mark: We will add new features: 3 and 7 days moving average in the dataset that are computed rolling mean with a window length of 3 and 7 observations.
@@ -98,7 +99,7 @@ ROC is commonly used to examine the trade-off between the detection of true posi
 - FPT = FP / N
 - TPR = TP / P
 <br>
-We will compare model by using the AUV score. AUC uses a system similar to academic letter grades:
+:white_check_mark: We will compare model by using the AUV score. AUC uses a system similar to academic letter grades:
 -  A: Outstanding = 0.9 to 1.0 <br>
 -  B: Excellent/ good = 0.8 to 0.9 <br>
 -  C: Acceptable/ fair = 0.7 to 0.8 <br>
