@@ -114,3 +114,21 @@ Gradient Boosting Emsemble produces the same AUC = 0.53 as Random Forest.
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/64395120/187613760-c5c5d0fb-99d8-4d83-9e0e-0e7ee23d7e05.png">
 
 ### Deep Learning
+Tensorflow and Keras will be using here to create a small neural network. <br>
+
+We tested 50 epochs and the model stops at epoch 11. 
+![Screen Shot 2022-08-31 at 2 03 48 AM](https://user-images.githubusercontent.com/64395120/187614594-e29c69aa-f395-4a64-af32-8ed86f4c2eef.png)
+
+AUC plot: 
+![Screen Shot 2022-08-31 at 2 04 25 AM](https://user-images.githubusercontent.com/64395120/187614726-b6581309-dd09-4109-9edb-b47d45f1066b.png)
+
+AUC does not improve, so ANN is not our choice. 
+
+### :rainbow: Conclusion
+Based on the AUC value, the winner here is Random Forest and Gradient Boosting Ensemble with AUC of 0.53. <br>
+<br>
+The factors that have higher impact on the stock price prediction are Price Range, Moving Average 7, Price Direction, Volume, and lastly Moving Average 3.
+![Screen Shot 2022-08-31 at 2 06 07 AM](https://user-images.githubusercontent.com/64395120/187614991-380be9d0-1b2c-492b-a025-c0549bbf8f93.png)
+
+
+
