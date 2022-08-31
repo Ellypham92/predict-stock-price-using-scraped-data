@@ -120,7 +120,7 @@ Random Forest is an ensemble method and built on the idea of bagging. The logic 
 <br>
 One of the avantages of random forest is it generates decision trees that are uncorrected to promote diversity among trees because random forest makes a set of decision trees.
 
-<img width="700" alt="image" src="https://user-images.githubusercontent.com/64395120/187613548-1aa7b9e2-71a4-4894-bc44-63cf2ea0ee3e.png">
+<img width="750" alt="image" src="https://user-images.githubusercontent.com/64395120/187613548-1aa7b9e2-71a4-4894-bc44-63cf2ea0ee3e.png">
 
 :rainbow: This model is doing slightly better than the previous models; since the AUC (0.53) is greater. However, we are still looking for AUC value closer to 1.0, random forest is not an optimal choice.
 
@@ -129,7 +129,7 @@ One of the avantages of random forest is it generates decision trees that are un
 Another ensemble method, Gradient Boosting Ensemble, which is adaptively chaning distribution of training data by focusing more on previously misclassified records. <br>
 <br>
 :rainbow: Gradient Boosting Emsemble produces the same AUC = 0.53 as Random Forest. 
-<img width="750" alt="image" src="https://user-images.githubusercontent.com/64395120/187613760-c5c5d0fb-99d8-4d83-9e0e-0e7ee23d7e05.png">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/64395120/187613760-c5c5d0fb-99d8-4d83-9e0e-0e7ee23d7e05.png">
 
 ### Deep Learning
 Tensorflow and Keras will be using here to create a small neural network. <br>
