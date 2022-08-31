@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/64395120/187621523-2905e649-4620-4692-ab7d-8a949e4b2861.png)
+
 # Stock Price Prediction: Apple 
 
 By: Elly Pham <br>
