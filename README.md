@@ -43,7 +43,7 @@ Here is a slice of our data using describe() method:
 Sample of training data: 
 ![Screen Shot 2022-08-30 at 10 03 38 PM](https://user-images.githubusercontent.com/64395120/187583518-a315c5a5-069d-475b-8b64-48b848dafcff.png)
 
-Each dataset has the same format with the following 7 columns:
+Each dataset has the same format with the following 8 columns:
 
 - Date - in format YYYY-MM-DD <br>
 - Open - stock price upon opening of an exchange <br>
