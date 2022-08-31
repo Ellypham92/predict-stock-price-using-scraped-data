@@ -3,7 +3,7 @@
 By: Elly Pham <br>
 Created on: August 31, 2022 <br>
 Source: [Stratascratch.com](https://www.stratascratch.com/) <br>
-Data source: [Scraped data code](https://github.com/Ellypham92/web-scrape-real-time-stock-data)
+Data source: [Scraping code](https://github.com/Ellypham92/web-scrape-real-time-stock-data)
 
 
 ## Table of Contents
