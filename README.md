@@ -21,7 +21,6 @@ Data source: [Scraping code](https://github.com/Ellypham92/web-scrape-real-time-
 [Conclusion](#Conclusion)
 
 
-:grey_question:  
 ### Problem Statement
 The task is to predict the day price direction of Apple stock, AAPL.
 
@@ -29,7 +28,7 @@ The stock market is very complex and highly volatile. In order to be profitable,
 
 Therefore, the target would be a binary classification whether the next day closing price will be higher than the opening price.
 
-:mag:  
+
 ### Data Exploration
 Here is a slice of our data using describe() method: 
 ![Screen Shot 2022-08-30 at 9 57 35 PM](https://user-images.githubusercontent.com/64395120/187582706-67b52f05-0013-4a6f-9cca-c50faf14ce43.png)
@@ -37,9 +36,9 @@ Here is a slice of our data using describe() method:
 ###  Data Preprocessing <br>
 
  ##### We will drop the column Unamed ) using drop() method since it is not helpful and split data into
-:paperclip: Training ('1980-12-12':'2014-12-12')
-:paperclip: Validation (2014-12-13':'2018-12-13')
-:paperclip: Testing ('2018-12-14':'2022-08-29')
+:paperclip: Training ('1980-12-12':'2014-12-12') <br>
+:paperclip: Validation (2014-12-13':'2018-12-13') <br>
+:paperclip: Testing ('2018-12-14':'2022-08-29') <br>
 
 Sample of training data: 
 ![Screen Shot 2022-08-30 at 10 03 38 PM](https://user-images.githubusercontent.com/64395120/187583518-a315c5a5-069d-475b-8b64-48b848dafcff.png)
