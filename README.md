@@ -40,7 +40,7 @@ Data source: [Scraping code](https://github.com/Ellypham92/web-scrape-real-time-
 
 ###  Data Preprocessing <br>
 
- ##### We will drop the column Unamed ) using drop() method since it is not helpful and split data into
+:white_check_mark: We will drop the column Unamed: 0 using drop() method since it is not helpful and split data into
 - Training ('1980-12-12':'2014-12-12') <br>
 - Validation (2014-12-13':'2018-12-13') <br>
 - Testing ('2018-12-14':'2022-08-29') <br>
@@ -59,10 +59,10 @@ Each dataset has the same format with the following 8 columns:
 - Dividends -   the distribution of a company's earnings to its shareholders <br>
 - Stock Splits - divide a company's shares into more shares, which in turn lowers a share's price and increases the number of shares available <br>
 
-##### We change the date type for date to datetime and Volume to float using astype() method:
+:white_check_mark: We change the date type for date to datetime and Volume to float using astype() method:
 ![Screen Shot 2022-08-30 at 10 08 09 PM](https://user-images.githubusercontent.com/64395120/187584134-e2d9dd14-11f2-4321-8e01-c8596728c8ee.png)
 
-##### We created a custom function make_graph() to plot train, validate, test data for high price/low price and volume 
+:white_check_mark: We create a custom function make_graph() to plot train, validate, test data for high price/low price and volume 
 ![Screen Shot 2022-08-30 at 10 25 09 PM](https://user-images.githubusercontent.com/64395120/187585950-c2ee3c31-19f2-4e75-bed9-0d2013bee5b7.png)
 
 ![Screen Shot 2022-08-30 at 10 16 32 PM](https://user-images.githubusercontent.com/64395120/187585162-76a20fba-f766-469a-9f80-459cb58dacad.png)
@@ -74,17 +74,18 @@ Since we wanted to predict the next day and find out whether the next day's clos
 <br>
 To do that we are going to move the day to one day before that, meaning we shift the data of the next day to one day back. Additionally, we will add a classification column - `Target`. If the closing price is greater than opening price will be 1, otherwise it will be 0. <br>
 <br>
-We are using shift() method here.
+:white_check_mark: We are using shift() method here.
 ![Screen Shot 2022-08-31 at 1 43 50 AM](https://user-images.githubusercontent.com/64395120/187611259-6481a0ae-4ab0-40bf-8be4-c2cf65dabb4c.png)
 
-Now, we are using value_counts() method to sum the total number of days that has higher closing pricer:
+:white_check_mark: Now, we are using value_counts() method to sum the total number of days that has higher closing pricer:
 ![Screen Shot 2022-08-31 at 1 46 41 AM](https://user-images.githubusercontent.com/64395120/187611829-8a8e0136-ab46-41f3-9167-a8501f31de08.png)
 
-Since the stock price data is time series data, the price in the next day depends on price from the previous day. We are going to calculate 3 and 7 day moving average. We can use rolling(). <br>
+Since the stock price data is time series data, the price in the next day depends on price from the previous day. We are going to calculate 3 and 7 day moving average. 
+:white_check_mark: We can use rolling(). <br>
 <br>
-We will add new features: 3 and 7 days moving average in the dataset that are computed rolling mean with a window length of 3 and 7 observations.
+:white_check_mark: We will add new features: 3 and 7 days moving average in the dataset that are computed rolling mean with a window length of 3 and 7 observations.
 <br>
-Additionally, we will add a price direction feature which is the differenece between closing price and the opening price to try if that would help for our prediction. And, price range which is the difference between high price and low price.
+:white_check_mark: Additionally, we will add a price direction feature which is the differenece between closing price and the opening price to try if that would help for our prediction. And, price range which is the difference between high price and low price.
 <br>
 
 ![Screen Shot 2022-08-31 at 1 49 55 AM](https://user-images.githubusercontent.com/64395120/187612239-8eb2f7c0-729b-41ff-aefb-c9490191749c.png)
