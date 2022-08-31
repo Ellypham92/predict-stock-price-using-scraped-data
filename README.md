@@ -12,6 +12,7 @@ Created on: August 31, 2022
 - [Logistic Regression](#Logistic-Regression)
 - [Decision Tree](#Decission-Tree)
 - [Random Forest](#Random-Forest) <br>
+- [Gradient Boosting Ensemble](#Gradient-Boosting-Ensemble)
 
 [Deep Learning](#Deep-Learning) <br>
 [Conclusion](#Conclusion)
