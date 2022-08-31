@@ -17,7 +17,7 @@ Created on: August 31, 2022
 [Deep Learning](#Deep-Learning) <br>
 [Conclusion](#Conclusion)
 
-### :iphone: Problem Statement
+###  Problem Statement
 The task is to predict the day price direction of Apple stock, AAPL.
 
 The stock market is very complex and highly volatile. In order to be profitable, we do not need to predict the correct price, but rather, the price direction: whether it will be higher or lower than the price that is today. If we predict it to be higher, we might as well buy some stocks, else, we should probably sell.
@@ -27,7 +27,7 @@ Therefore, the target would be a binary classification whether the next day clos
 Here is a slice of our data using describe() method: 
 ![Screen Shot 2022-08-30 at 9 57 35 PM](https://user-images.githubusercontent.com/64395120/187582706-67b52f05-0013-4a6f-9cca-c50faf14ce43.png)
 
-### :baseball: Data Preprocessing <br>
+###  Data Preprocessing <br>
 
  ##### We will drop the column Unamed ) using drop() method since it is not helpful and split data into
 - Training (1980-12-12 to 2005-12-12)
@@ -57,7 +57,7 @@ Stock Splits - <br>
 ![Screen Shot 2022-08-30 at 10 16 32 PM](https://user-images.githubusercontent.com/64395120/187585162-76a20fba-f766-469a-9f80-459cb58dacad.png)
 
 
-### :hourglass_flowing_sand: Feature Engineering  
+### Feature Engineering  
 
 Since we wanted to predict the next day and find out whether the next day's close is higher than the next day's open, what we need to do next is to compare the closing and the opening prices one day in advance. <br>
 <br>
@@ -78,7 +78,7 @@ Additionally, we will add a price direction feature which is the differenece bet
 
 ![Screen Shot 2022-08-31 at 1 49 55 AM](https://user-images.githubusercontent.com/64395120/187612239-8eb2f7c0-729b-41ff-aefb-c9490191749c.png)
 
-### :snowboarder: Machine Learning Modeling
+### Machine Learning Modeling
 #### Logistic Regression
 Now, the Y variable is classified into 2 values 0/1 so we can test out with **logistic regression** algorithm first. <br> 
 <br>
@@ -126,7 +126,7 @@ AUC plot:
 
 AUC does not improve, so ANN is not our choice. 
 
-### :rainbow: Conclusion
+###  Conclusion
 Based on the AUC value, the winner here is Random Forest and Gradient Boosting Ensemble with AUC of 0.53. <br>
 <br>
 The factors that have higher impact on the stock price prediction are Price Range, Moving Average 7, Price Direction, Volume, and lastly Moving Average 3. <br>
