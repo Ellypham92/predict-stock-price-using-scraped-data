@@ -26,6 +26,7 @@ We will drop the column Unamed ) using drop() method since it is not helpful and
 - Validation (2005-12-13 to 2013-12-13)
 - Testing (2013-12-14 to 2022-08-29)
 
+Sample of training data: 
 ![Screen Shot 2022-08-30 at 9 57 35 PM](https://user-images.githubusercontent.com/64395120/187583225-bec52d91-ddea-499a-85b8-a06b4b22f348.png)
 
 Each dataset has the same format with the following 7 columns:
