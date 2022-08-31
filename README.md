@@ -1,6 +1,6 @@
 # Stock Price Prediction: Apple 
 
-Elly Pham
+By: Elly Pham <br>
 Created on: August 31, 2022 
 
 ## Table of Contents
@@ -24,6 +24,7 @@ The task is to predict the day price direction of Apple stock, AAPL.
 The stock market is very complex and highly volatile. In order to be profitable, we do not need to predict the correct price, but rather, the price direction: whether it will be higher or lower than the price that is today. If we predict it to be higher, we might as well buy some stocks, else, we should probably sell.
 
 Therefore, the target would be a binary classification whether the next day closing price will be higher than the opening price.
+
 ### Data Exploration
 Here is a slice of our data using describe() method: 
 ![Screen Shot 2022-08-30 at 9 57 35 PM](https://user-images.githubusercontent.com/64395120/187582706-67b52f05-0013-4a6f-9cca-c50faf14ce43.png)
@@ -97,7 +98,7 @@ We will compare model by using the AUV score. AUC uses a system similar to acade
 
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/64395120/187613055-e7181fbb-396f-4f45-bd24-5df0ad8854bb.png">
 
-AUC is 0.50, the model is not doing greater than logistic regression. 
+:rainbow: AUC is 0.51, Logistic Regression model is not doing great here. We are expecting higher probability and the more AUC closer to 1.0, the better. Let's move on to the next model. 
 
 #### Random Forest
 
@@ -107,13 +108,13 @@ One of the avantages of random forest is it generates decision trees that are un
 
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/64395120/187613548-1aa7b9e2-71a4-4894-bc44-63cf2ea0ee3e.png">
 
-This model is doing slightly better than the previous models; since the AUC (0.53) is greater. However, we are still looking for AUC value closer to 1.0, random forest is not an optimal choice.
+:rainbow: This model is doing slightly better than the previous models; since the AUC (0.53) is greater. However, we are still looking for AUC value closer to 1.0, random forest is not an optimal choice.
 
 #### Gradient Boosting Ensemble
 
 Another ensemble method, Gradient Boosting Ensemble, which is adaptively chaning distribution of training data by focusing more on previously misclassified records. <br>
 <br>
-Gradient Boosting Emsemble produces the same AUC = 0.53 as Random Forest. 
+:rainbow: Gradient Boosting Emsemble produces the same AUC = 0.53 as Random Forest. 
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/64395120/187613760-c5c5d0fb-99d8-4d83-9e0e-0e7ee23d7e05.png">
 
 ### Deep Learning
@@ -125,7 +126,7 @@ We tested 50 epochs and the model stops at epoch 11.
 AUC plot: 
 ![Screen Shot 2022-08-31 at 2 04 25 AM](https://user-images.githubusercontent.com/64395120/187614726-b6581309-dd09-4109-9edb-b47d45f1066b.png)
 
-AUC does not improve, so ANN is not our choice. 
+:rainbow: AUC does not improve, so ANN is not our choice. 
 
 ###  Conclusion
 :rainbow: Based on the AUC value, the winners are:
