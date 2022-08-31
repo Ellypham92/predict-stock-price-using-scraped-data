@@ -148,7 +148,8 @@ AUC plot: <br>
 - Random Forest
 - Gradient Boosting Ensemble 
 
-We can deploy these two models for production and may require additional work on hyper parameter tuning that may help to improve the accuracy of these two models.
+We can deploy these two models for production. There might require additional work on hyper parameter tuning that help to improve the accuracy of these two models.
+<br>
 <br>
 :rainbow: The factors that have higher impact on the stock price prediction are: <br>
 - Price Range <br>
