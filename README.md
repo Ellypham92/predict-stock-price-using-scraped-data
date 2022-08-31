@@ -6,7 +6,7 @@
 
 # Stock Price Direction Prediction: Apple 
 By: Elly Pham <br>
-Created on: August 31, 2022 <br>
+As of: August 30, 2022 <br>
 Source: [Stratascratch.com](https://www.stratascratch.com/) <br>
 Data source: [Scraping code](https://github.com/Ellypham92/web-scrape-real-time-stock-data)
 
