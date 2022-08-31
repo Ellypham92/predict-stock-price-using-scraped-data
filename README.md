@@ -86,6 +86,7 @@ Since the stock price data is time series data, the price in the next day depend
 <br>
 :white_check_mark: We will add new features: 3 and 7-day moving average in the dataseta. It is computed by rolling mean with a window length of 3 and 7 observations.
 <br>
+<br>
 :white_check_mark: Additionally, we will add: <br>
 - Price direction feature which is the differenece between closing price and the opening price. We try to see if that would be helpful for our prediction. <br>
 - Price range which is the difference between high price and low price.
