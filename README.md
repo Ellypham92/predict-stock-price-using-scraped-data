@@ -147,6 +147,8 @@ AUC plot: <br>
 :rainbow: Based on the AUC value, the winners are:
 - Random Forest
 - Gradient Boosting Ensemble 
+
+We can deploy these two models for production and may require additional work on hyper parameter tuning that may help to improve the accuracy of these two models.
 <br>
 :rainbow: The factors that have higher impact on the stock price prediction are: <br>
 - Price Range <br>
