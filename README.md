@@ -7,6 +7,9 @@
 [Data Preprocessing](#Data-Preprocessing) <br>
 [Feature Engineer](#Feature-Engineer) <br>
 [Machine Learning Modeling](#Machine-Learning-Modeling) <br>
+- [Logistic Regression](#Logistic-Regression)
+- [Decision Tree](#Decission-Tree)
+- [Random Forest](#Random-Forest)
 
 ### Problem Statement
 
