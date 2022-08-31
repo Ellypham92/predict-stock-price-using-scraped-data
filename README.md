@@ -11,13 +11,13 @@
 - [Decision Tree](#Decission-Tree)
 - [Random Forest](#Random-Forest)
 
-### Problem Statement
+### :iphone: Problem Statement
 The task is to predict the day price direction of Apple stock, AAPL.
 
 The stock market is very complex and highly volatile. In order to be profitable, we do not need to predict the correct price, but rather, the price direction: whether it will be higher or lower than the price that is today. If we predict it to be higher, we might as well buy some stocks, else, we should probably sell.
 
 Therefore, the target would be a binary classification whether the next day closing price will be higher than the opening price.
-### Data Exploration
+### :tada: Data Exploration
 Here is a slice of our data using describe() method: 
 ![Screen Shot 2022-08-30 at 9 57 35 PM](https://user-images.githubusercontent.com/64395120/187582706-67b52f05-0013-4a6f-9cca-c50faf14ce43.png)
 
@@ -39,9 +39,9 @@ Close - stock price at the end of a trading day
 Volume - the amount of shares traded over the course of a trading day
 Dividends - 
 Stock Splits - 
-### Data Preprocessing
+### :baseball: Data Preprocessing
 
-### Machine Learning Modeling
+### :bicyclist: Machine Learning Modeling
 
 Work in progress
 
