@@ -23,7 +23,7 @@ Here is a slice of our data using describe() method:
 
 ### :baseball: Data Preprocessing <br>
 
-**We will drop the column Unamed ) using drop() method since it is not helpful and split data into:
+**We will drop the column Unamed ) using drop() method since it is not helpful and split data into** 
 - Training (1980-12-12 to 2005-12-12)
 - Validation (2005-12-13 to 2013-12-13)
 - Testing (2013-12-14 to 2022-08-29)
@@ -42,7 +42,7 @@ Volume - the amount of shares traded over the course of a trading day <br>
 Dividends -  <br>
 Stock Splits - <br>
 
-**We change the date type for date to datetime and Volume to float using astype() method:
+**We change the date type for date to datetime and Volume to float using astype() method:**
 ![Screen Shot 2022-08-30 at 10 08 09 PM](https://user-images.githubusercontent.com/64395120/187584134-e2d9dd14-11f2-4321-8e01-c8596728c8ee.png)
 
 ### :bicyclist: Machine Learning Modeling
