@@ -8,7 +8,7 @@
 By: Elly Pham <br>
 As of: August 30, 2022 <br>
 Source: [Stratascratch.com](https://www.stratascratch.com/) <br>
-Data source: [Scraping code](https://github.com/Ellypham92/web-scrape-real-time-stock-data)
+Data: [Scraping code](https://github.com/Ellypham92/web-scrape-real-time-stock-data)
 
 
 ## Table of Contents
