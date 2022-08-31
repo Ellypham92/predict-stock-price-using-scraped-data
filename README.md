@@ -138,9 +138,9 @@ We tested 50 epochs and the model stops at epoch 11.
 ![Screen Shot 2022-08-31 at 2 03 48 AM](https://user-images.githubusercontent.com/64395120/187614594-e29c69aa-f395-4a64-af32-8ed86f4c2eef.png)
 
 AUC plot: 
-![Screen Shot 2022-08-31 at 2 04 25 AM](https://user-images.githubusercontent.com/64395120/187614726-b6581309-dd09-4109-9edb-b47d45f1066b.png)
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/64395120/187614726-b6581309-dd09-4109-9edb-b47d45f1066b.png">
 
-:rainbow: AUC does not improve, so ANN is not our choice. 
+:rainbow: AUC does not improve, therefore ANN is not our choice. 
 
 ###  Conclusion
 :rainbow: Based on the AUC value, the winners are:
