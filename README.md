@@ -55,5 +55,7 @@ Stock Splits - <br>
 
 ### :bicyclist: Machine Learning Modeling
 
-Work in progress
+Since we wanted to predict the next day and find out whether the next day's close is higher than the next day's open, what we need to do next is to compare the closing and the opening prices one day in advance. <br>
+To do that we are going to move the day to one day before that, meaning we shift the data of the next day to a day back. Additionally, we will add a classification column - `Target`. If the closing price is greater than opening price will be 1, otherwise it will be 0. <br>
+Before implementing this shifting (or moving one day prior) method, we are going to sort the data by date in ascending order. <br>
 
