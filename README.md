@@ -1,4 +1,7 @@
-![image](https://user-images.githubusercontent.com/64395120/187621523-2905e649-4620-4692-ab7d-8a949e4b2861.png)
+
+<div id="header" align="center">
+  <img src="https://user-images.githubusercontent.com/64395120/187621523-2905e649-4620-4692-ab7d-8a949e4b2861.png"/>
+</div>
 
 # Stock Price Prediction: Apple 
 
