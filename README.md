@@ -36,9 +36,9 @@ Here is a slice of our data using describe() method:
 ###  Data Preprocessing <br>
 
  ##### We will drop the column Unamed ) using drop() method since it is not helpful and split data into
-:paperclip: Training ('1980-12-12':'2014-12-12') <br>
-:paperclip: Validation (2014-12-13':'2018-12-13') <br>
-:paperclip: Testing ('2018-12-14':'2022-08-29') <br>
+- Training ('1980-12-12':'2014-12-12') <br>
+- Validation (2014-12-13':'2018-12-13') <br>
+- Testing ('2018-12-14':'2022-08-29') <br>
 
 Sample of training data: 
 ![Screen Shot 2022-08-30 at 10 03 38 PM](https://user-images.githubusercontent.com/64395120/187583518-a315c5a5-069d-475b-8b64-48b848dafcff.png)
