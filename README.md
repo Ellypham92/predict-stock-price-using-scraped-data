@@ -1,4 +1,6 @@
 # Stock Price Prediction: Apple 
+![image](https://user-images.githubusercontent.com/64395120/187584766-4d9f469c-9974-40b3-be08-f37404561f25.png)
+
 
 ## Table of Contents
 
