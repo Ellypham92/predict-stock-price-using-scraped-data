@@ -12,7 +12,8 @@ Created on: August 31, 2022
 - [Logistic Regression](#Logistic-Regression)
 - [Decision Tree](#Decission-Tree)
 - [Random Forest](#Random-Forest) <br>
-[Deep Learning](#Deep-Learning)
+
+[Deep Learning](#Deep-Learning) <br>
 [Conclusion](#Conclusion)
 
 ### :iphone: Problem Statement
