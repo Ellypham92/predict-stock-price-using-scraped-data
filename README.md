@@ -13,7 +13,7 @@ Created on: August 31, 2022
 - [Decision Tree](#Decission-Tree)
 - [Random Forest](#Random-Forest)
 [Deep Learning](#Deep-Learning)
-[Conclusion](#Conclusion
+[Conclusion](#Conclusion)
 
 ### :iphone: Problem Statement
 The task is to predict the day price direction of Apple stock, AAPL.
