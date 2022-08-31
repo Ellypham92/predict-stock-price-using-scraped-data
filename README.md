@@ -45,14 +45,14 @@ Sample of training data:
 
 Each dataset has the same format with the following 7 columns:
 
-Date - in format YYYY-MM-DD <br>
-Open - stock price upon opening of an exchange <br>
-High - the highest stock price on a given day <br>
-Low - the lowest stock price on a given day <br>
-Close - stock price at the end of a trading day <br>
-Volume - the amount of shares traded over the course of a trading day <br>
-Dividends -  <br>
-Stock Splits - <br>
+- Date - in format YYYY-MM-DD <br>
+- Open - stock price upon opening of an exchange <br>
+- High - the highest stock price on a given day <br>
+- Low - the lowest stock price on a given day <br>
+- Close - stock price at the end of a trading day <br>
+- Volume - the amount of shares traded over the course of a trading day <br>
+- Dividends -   the distribution of a company's earnings to its shareholders <br>
+- Stock Splits - divide a company's shares into more shares, which in turn lowers a share's price and increases the number of shares available <br>
 
 ##### We change the date type for date to datetime and Volume to float using astype() method:
 ![Screen Shot 2022-08-30 at 10 08 09 PM](https://user-images.githubusercontent.com/64395120/187584134-e2d9dd14-11f2-4321-8e01-c8596728c8ee.png)
