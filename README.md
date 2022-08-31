@@ -2,6 +2,8 @@
 
 By: Elly Pham <br>
 Created on: August 31, 2022 
+Source: [Stratascratch.com]https://www.stratascratch.com/ 
+
 
 ## Table of Contents
 [Problem Statement](#Problem-Statement) <br>
@@ -143,4 +145,3 @@ AUC plot:
 ![Screen Shot 2022-08-31 at 2 06 07 AM](https://user-images.githubusercontent.com/64395120/187614991-380be9d0-1b2c-492b-a025-c0549bbf8f93.png)
 
 
-#### Source: https://www.stratascratch.com/ 
