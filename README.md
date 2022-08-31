@@ -1,5 +1,8 @@
 # Stock Price Prediction: Apple 
 
+Elly Pham
+Created on: August 31, 2022 
+
 ## Table of Contents
 [Problem Statement](#Problem-Statement) <br>
 [Data Exploration](#Data-Exploration) <br>
@@ -9,6 +12,8 @@
 - [Logistic Regression](#Logistic-Regression)
 - [Decision Tree](#Decission-Tree)
 - [Random Forest](#Random-Forest)
+[Deep Learning](#Deep-Learning)
+[Conclusion](#Conclusion
 
 ### :iphone: Problem Statement
 The task is to predict the day price direction of Apple stock, AAPL.
@@ -50,7 +55,7 @@ Stock Splits - <br>
 ![Screen Shot 2022-08-30 at 10 16 32 PM](https://user-images.githubusercontent.com/64395120/187585162-76a20fba-f766-469a-9f80-459cb58dacad.png)
 
 
-### :bicyclist: Machine Learning Modeling
+### :hourglass_flowing_sand: Feature Engineering  
 
 Since we wanted to predict the next day and find out whether the next day's close is higher than the next day's open, what we need to do next is to compare the closing and the opening prices one day in advance. <br>
 <br>
@@ -62,8 +67,6 @@ We are using shift() method here.
 Now, we are using value_counts() method to sum the total number of days that has higher closing pricer:
 ![Screen Shot 2022-08-31 at 1 46 41 AM](https://user-images.githubusercontent.com/64395120/187611829-8a8e0136-ab46-41f3-9167-a8501f31de08.png)
 
-
-### :hourglass_flowing_sand: Feature Engineering  
 Since the stock price data is time series data, the price in the next day depends on price from the previous day. We are going to calculate 3 and 7 day moving average. We can use rolling(). <br>
 <br>
 We will add new features: 3 and 7 days moving average in the dataset that are computed rolling mean with a window length of 3 and 7 observations.
