@@ -77,4 +77,21 @@ Additionally, we will add a price direction feature which is the differenece bet
 ![Screen Shot 2022-08-31 at 1 49 55 AM](https://user-images.githubusercontent.com/64395120/187612239-8eb2f7c0-729b-41ff-aefb-c9490191749c.png)
 
 ### :snowboarder: Machine Learning Modeling
+#### Logistic Regression
+Now, the Y variable is classified into 2 values 0/1 so we can test out with **logistic regression** algorithm first. <br> 
+<br>
+ROC is commonly used to examine the trade-off between the detection of true positives, while avoiding false positives. ROC curve plots TPR on the y-axis against FPR on the x-axis
+- FPT = FP / N
+- TPR = TP / P
+<br>
+We will compare model by using the AUV score. AUC uses a system similar to academic letter grades:
+-  A: Outstanding = 0.9 to 1.0
+-  B: Excellent/ good = 0.8 to 0.9
+-  C: Acceptable/ fair = 0.7 to 0.8
+-  D:Poor=0.6to0.7
+-  E: No discrimination = 0.5 to 0.6
+
+<br>
+![Screen Shot 2022-08-31 at 1 51 20 AM](https://user-images.githubusercontent.com/64395120/187612509-002493ac-3457-4efc-b958-6d0471cf2115.png)
+
 
