@@ -1,7 +1,8 @@
 
 <div id="header" align="center">
-  <img width="1100" src="https://user-images.githubusercontent.com/64395120/187621523-2905e649-4620-4692-ab7d-8a949e4b2861.png"/>
+  <img width="1100" src="https://user-images.githubusercontent.com/64395120/187622829-7c291324-9dfc-4719-a68c-d1f34051fff1.png"/>
 </div>
+
 
 # Stock Price Prediction: Apple 
 
