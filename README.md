@@ -21,7 +21,9 @@ Therefore, the target would be a binary classification whether the next day clos
 Here is a slice of our data using describe() method: 
 ![Screen Shot 2022-08-30 at 9 57 35 PM](https://user-images.githubusercontent.com/64395120/187582706-67b52f05-0013-4a6f-9cca-c50faf14ce43.png)
 
-We will drop the column Unamed ) using drop() method since it is not helpful and split data into:
+### :baseball: Data Preprocessing
+
+**We will drop the column Unamed ) using drop() method since it is not helpful and split data into:
 - Training (1980-12-12 to 2005-12-12)
 - Validation (2005-12-13 to 2013-12-13)
 - Testing (2013-12-14 to 2022-08-29)
@@ -39,7 +41,9 @@ Close - stock price at the end of a trading day <br>
 Volume - the amount of shares traded over the course of a trading day <br>
 Dividends -  <br>
 Stock Splits - <br>
-### :baseball: Data Preprocessing
+
+**We change the date type for date to datetime and Volume to float using astype() method:
+![Screen Shot 2022-08-30 at 10 08 09 PM](https://user-images.githubusercontent.com/64395120/187584134-e2d9dd14-11f2-4321-8e01-c8596728c8ee.png)
 
 ### :bicyclist: Machine Learning Modeling
 
