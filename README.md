@@ -1,7 +1,9 @@
 # Stock Price Prediction: Apple 
 <div id="header" align="center">
-<img width="350" alt="image" src="https://user-images.githubusercontent.com/64395120/187584766-4d9f469c-9974-40b3-be08-f37404561f25.png">
+<img width="350" alt="image" src="https://user-images.githubusercontent.com/64395120/187615284-299e9121-bfc3-4a88-9588-ffb2105fb15c.png">
 </div>
+![image](https://user-images.githubusercontent.com/64395120/187615284-299e9121-bfc3-4a88-9588-ffb2105fb15c.png)
+
 
 ## Table of Contents
 [Problem Statement](#Problem-Statement) <br>
@@ -127,7 +129,8 @@ AUC does not improve, so ANN is not our choice.
 ### :rainbow: Conclusion
 Based on the AUC value, the winner here is Random Forest and Gradient Boosting Ensemble with AUC of 0.53. <br>
 <br>
-The factors that have higher impact on the stock price prediction are Price Range, Moving Average 7, Price Direction, Volume, and lastly Moving Average 3.
+The factors that have higher impact on the stock price prediction are Price Range, Moving Average 7, Price Direction, Volume, and lastly Moving Average 3. <br>
+
 ![Screen Shot 2022-08-31 at 2 06 07 AM](https://user-images.githubusercontent.com/64395120/187614991-380be9d0-1b2c-492b-a025-c0549bbf8f93.png)
 
 
