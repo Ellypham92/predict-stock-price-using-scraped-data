@@ -27,7 +27,7 @@ We will drop the column Unamed ) using drop() method since it is not helpful and
 - Testing (2013-12-14 to 2022-08-29)
 
 Sample of training data: 
-![Screen Shot 2022-08-30 at 10 03 06 PM](https://user-images.githubusercontent.com/64395120/187583455-f4b0d863-e91d-437e-8df6-929fdf7b45ce.png)
+![Screen Shot 2022-08-30 at 10 03 38 PM](https://user-images.githubusercontent.com/64395120/187583518-a315c5a5-069d-475b-8b64-48b848dafcff.png)
 
 Each dataset has the same format with the following 7 columns:
 
